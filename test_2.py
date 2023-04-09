@@ -15,4 +15,4 @@ class TestDemo2:
     @allure.title('Demo2模块用例2')
     def test_four(self):
         print('test_four测试不通过')
-        assert True
+        assert False
